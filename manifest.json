@@ -1,0 +1,18 @@
+{
+  "background": {
+    "scripts": ["dist/background.js"],
+    "persistent": true
+  },
+  "manifest_version": 2,
+  "name": "Bumpers",
+  "version": "0.0.1",
+  "description": "Break up your browsing with bumpers",
+  "icons": {},
+  "author": "Kyle Petrovich",
+  "minimum_chrome_version": "62",
+  "offline_enabled": true,
+  "permissions": ["tabs", "webNavigation", "http://*/", "https://*/"],
+  "short_name": "Bumpers",
+  "update_url": "http://path/to/updateInfo.xml",
+  "version_name": "mote"
+}
